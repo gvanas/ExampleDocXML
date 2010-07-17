@@ -1,0 +1,119 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+body {
+    color: black;
+    background: white;
+    font-family: serif;
+    font-size: 12pt;
+    min-width: 20em;
+    max-width: 50em;
+    line-height: 1.1;
+}
+a:link { color: inherit; text-decoration: none; }
+a:visited { color: inherit; text-decoration: none; }
+a:active { color: inherit; text-decoration: underline; }
+a:hover { color: inherit; text-decoration: underline; }
+a.external:link { color: rgb(0,51,102); text-decoration: none; }
+a.external:visited { color: rgb(51,102,153); text-decoration: none; }
+a.external:active { color: rgb(51,102,153); text-decoration: underline; }
+a.external:hover { text-decoration: underline; }
+p {
+    text-align: justify;
+}
+div.abstract {
+    background-color: rgb(235, 240, 245);
+    font-style: italic;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+h1 {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    background-color: rgb(0,51,102);
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(0,51,102);
+}
+h3 {
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(0,51,102);
+}
+h4 {
+    font-family: sans-serif;
+    text-align: left;
+    color: rgb(0,51,102);
+}
+h5 {
+    text-align: left;
+    color: rgb(0,51,102);
+}
+h6 {
+    text-align: left;
+}
+.ref {
+}
+.ref-number {
+    color: rgb(153, 0, 0);
+}
+p.authors {
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+p.authors .author {
+    font-weight: bold;
+}
+div.affiliations {
+    margin-bottom: 0.2ex;
+}
+div.affiliations p.affiliation {
+    font-style: italic;
+}
+.eq {
+    color: rgb(0,51,102);
+}
+table.equation {
+    width: 100%;
+    background-color: rgb(240,240,240);
+}
+table.equation td.eq {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    text-align: center;
+}
+table.equation td.number {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    text-align: right;
+}
+.sc {
+    font-variant: small-caps;
+}
+pre {
+    font-size: smaller;
+    background-color: rgb(240,240,240);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+}
