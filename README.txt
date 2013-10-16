@@ -1,18 +1,18 @@
 "Multi-target document example for blahtexml"
-http://gva.noekeon.org/blahtexml/exampledoc/
+https://github.com/gvanas/ExampleDoc
 
-This is a working, yet simple, example of a multi-target generation system for scientific documents using Blahtexml for converting equations from TeX to MathML. More information can be found in the paper "Blahtexml and multi-target document generation", to appear in the "Zpravodaj Československého sdružení uživatelů TeXu" (http://bulletin.cstug.cz/).
+This is a working, yet simple, example of a multi-target generation system for scientific documents using Blahtexml for converting equations from TeX to MathML. More information can be found in the paper "Blahtexml and multi-target document generation" (http://gva.noekeon.org/papers/2010-Blahtexml.pdf), published in the "Zpravodaj Československého sdružení uživatelů TeXu" (http://bulletin.cstug.cz/).
 
 To make this example work, you need to have installed:
 * make
-* blahtexml (http://gva.noekeon.org/blahtexml)
+* blahtexml (https://github.com/gvanas/blahtexml, http://gva.noekeon.org/blahtexml)
 * xsltproc (http://xmlsoft.org/XSLT/xsltproc2.html)
 * LaTeX or XeLaTex (http://www.ctan.org/)
 
 Feedback is welcome. Please refer to the website above for contact information.
 
 Have fun!
-Gilles Van Assche, July 2010
+Gilles Van Assche, July 2010, updated October 2013
 
 
 
